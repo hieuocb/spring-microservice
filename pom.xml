@@ -18,11 +18,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <org.mapstruct.version>1.5.2.Final</org.mapstruct.version>
         <org.projectlombok.version>1.18.32</org.projectlombok.version>
+        <spring.version>3.2.4</spring.version>
     </properties>
 
     <modules>
+        <module>hoclamdev-common</module>
+        <module>eureka-service</module>
         <module>product-service</module>
         <module>payment-service</module>
+        <module>http-to-message</module>
     </modules>
 
     <build>

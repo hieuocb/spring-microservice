@@ -3,3 +3,7 @@ j
 java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(É‡ÊŞûÿÿÿÿ8°ııÃê1
 j
 java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(±ù¼æıÿÿÿÿ8²ııÃê1
+\
+java:S1128"?Remove this unused import 'jakarta.websocket.server.PathParam'.(ÇÄå¹8¡òıßê1
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8¡òıßê1

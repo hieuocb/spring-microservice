@@ -1,5 +1,11 @@
 server:
   port: 9067
+info:
+  app:
+    name: Product Service
+    description: Service get info Product
+    version: 1.0.0
+    java-vendor: ${java.specification.vendor}
 spring:
   application:
     name: product-service
@@ -17,4 +23,44 @@ spring:
 #    defer-datasource-initialization: true
 #  sql:
 #    init:
+  kafka:
+    bootstrap-servers: localhost:29092
+    consumer:
+      auto-offset-reset: earliest
+      group-id: product
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    prefer-ip-address: true
+
 #      mode: always
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "prometheus,metrics,info,health,shutdown,beans"
+    jmx:
+      exposure:
+        include: "prometheus,metrics,info,health,shutdown,beans"
+  info:
+    env:
+      enabled: true
+  endpoint:
+    health:
+      show-details: always
+      show-components: always
+      probes:
+        enabled: true
+    info:
+      enabled: true
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+    shutdown:
+      enabled: true
+kafka:
+  topic:
+    boot: product.demo
