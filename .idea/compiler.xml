@@ -11,6 +11,7 @@
         <module name="http-to-message" />
         <module name="payment-service" />
         <module name="hoclamdev-common" />
+        <module name="gateway-service" />
       </profile>
       <profile name="Annotation profile for spring-microservice" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -24,10 +25,14 @@
         <module name="product-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account-service" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-service" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
       <module name="http-to-message" options="-parameters" />
       <module name="payment-service" options="-parameters" />
       <module name="product-service" options="-parameters" />
