@@ -91,14 +91,6 @@ G
 Xpayment-service/src/main/java/com/hoclamdev/paymentservice/consumer/PaymentConsumer.java,7\1\7140d329eaf3aec494af8f7fb24c3747a841531a
 L
 payment-service/compose.yaml,c\f\cf7a397962dcb52d3d4ef9203bc97968c85b7443
-G
-account-service/pom.xml,a\f\afaf327a6435d2b8827595dd09405e8490f29529
-}
-Maccount-service/src/main/java/com/hoclamdev/account_service/MainVerticle.java,5\a\5a03eabe785f3a40805bd0fa6ffaa3d9cf35a351
-|
-Laccount-service/src/main/java/com/hoclamdev/accountservice/MainVerticle.java,4\0\40e53ff36390f309f0b0688cea75f48276a17c0c
-à
-Xaccount-service/src/main/java/com/hoclamdev/accountservice/consumer/AccountConsumer.java,e\0\e008bb3543ecb0a6fb111ad81bc90866e8c81794
 s
 Choclamdev-common/src/main/java/com/hoclamdev/common/TopicKafka.java,3\b\3b9481a8a50c26bf9214ab7501d09ed381d1c9c3
 G
@@ -109,3 +101,13 @@ G
 gateway-service/pom.xml,6\2\627bed90df51db9ce1f2c987c3ddc0380c236bae
 Ä
 Pgateway-service/src/main/java/com/hoclamdev/gatewayservice/config/UriConfig.java,c\5\c58852f55a70fe46da2468a4e463e9b50f452c93
+ü
+oproduct-service/target/generated-sources/annotations/com/hoclamdev/productservice/mapper/ProductMapperImpl.java,4\b\4b7c01d305dcf4d54b42e1ade42b29408a0d7e80
+â
+Yproduct-service/src/main/java/com/hoclamdev/productservice/entity/ProviderRepository.java,c\1\c1f1af2fd632d3541d434bd3c9b9b4245bc5ec95
+ç
+]product-service/src/main/java/com/hoclamdev/productservice/repository/ProviderRepository.java,5\0\502ffd9b7864c56e4429c75b6b7a639d2162d708
+ä
+Zproduct-service/src/main/java/com/hoclamdev/productservice/repository/ImageRepository.java,e\0\e0faf4da83812b8eca343b09e0b7f8c6ac900b4a
+ç
+]product-service/src/main/java/com/hoclamdev/productservice/repository/CategoryRepository.java,2\7\27339dd12012d2b60843baf5cb8de6da1b59d91b

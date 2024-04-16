@@ -1,8 +1,0 @@
-
-I
-java:S1602!",Remove useless curly braces around statement(‘à°€8ãÍí»ì1
-W
-java:S6213!":Rename this variable to not match a restricted identifier.(‘à°€8ãÍí»ì1
-L	java:S106""+Replace this use of System.out by a logger.(³¥³üÿÿÿÿ8äÍí»ì1
-J
-java:S1185("(Remove this method to simply inherit it.(Ù¨úßıÿÿÿÿ8äÍí»ì1

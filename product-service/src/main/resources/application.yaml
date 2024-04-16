@@ -64,3 +64,5 @@ management:
 kafka:
   topic:
     boot: product.demo
+
+
